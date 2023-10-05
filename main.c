@@ -13,8 +13,12 @@ int main(void){
         if (entero%i==0)
         {
             aux+=aux;
-        }
-        
+        }   
+    }
+    if(aux>2){
+        printf("El numero entero ingresado no es primo\n");
+    }else{
+        printf("El numero entero ingresado es primo\n");
     }
     
 
